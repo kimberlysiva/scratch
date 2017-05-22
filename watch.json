@@ -1,0 +1,21 @@
+{
+  "install": {
+    "include": [
+      "^package\\.json$",
+      "^\\.env$"
+    ]
+  },
+  "restart": {
+    "exclude": [
+      "^public/",
+      "^dist/"
+    ],
+    "include": [
+      "^sh/start$",
+      "^tsconfig\\.json$",
+      "\\.ts$",
+      "\\.json$"
+    ]
+  },
+  "throttle": 100
+}

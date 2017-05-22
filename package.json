@@ -1,0 +1,40 @@
+{
+  "name": "argon-apainter",
+  "version": "0.0.1",
+  "description": "Simple Argon + APainter sample",
+  "repository": {
+    "url": "https://glitch.com/edit/#!/argon-apainter"
+  },
+  "license": "MIT",
+  "keywords": [
+    "argon",
+    "node",
+    "aframe", 
+    "apainter",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {
+    "@types/dat-gui": "^0.5.28",
+    "@types/stats": "^0.16.29",
+    "@types/three": "0.0.19",
+    "@types/tween.js": "0.0.27",
+    "mobile-detect": "^1.3.5",
+    "static-server": "^2.0.1",
+    "typescript": "^2.1.4"
+  },
+  "scripts": {
+    "tsc" : "tsc",
+    "serve": "static-server -p 1337",
+    "start": "(tsc || echo) && node server.js"
+  },
+  "dependencies": {
+    "@argonjs/argon": "^1.2.0-18",
+    "express": "^4.15.2",
+    "cors": ""
+  },
+  "engines": {
+    "node": "7.1.x"
+  }
+}
+

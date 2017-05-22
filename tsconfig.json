@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+        "module": "amd",
+		"target": "ES5",
+		"noImplicitAny": false,
+		"preserveConstEnums":true,
+		"outDir": "public/build",
+		"sourceMap": true,
+		"watch": false,
+    "moduleResolution": "node",
+    "lib": [
+        "dom",
+        "es2015"
+    ]
+	},
+	"files": [
+  ],
+    "exclude": [
+        "node_modules"
+    ]
+}

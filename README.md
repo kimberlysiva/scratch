@@ -1,3 +1,4 @@
-# scratch
+Argon + AFrame + Vuforia Demo
+========================================
 
-This is my awesome scratch space!
+A simple example that puts some Aframe content on a Vuforia target in Argon
